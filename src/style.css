@@ -26,4 +26,5 @@ header {
 .hero-text {
 	color: #eee;
 	font-size: 3em;
+	font-variant: small-caps;
 }
