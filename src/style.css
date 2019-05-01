@@ -3,13 +3,41 @@ body {
 	color: #222;
 	font-size: 1.35em;
 }
+body, cite {
+	font-family: "Lucida Bright", serif;
+}
+
 header {
+	align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	min-width: 99vw;
+	padding: 1em;
 	position: absolute;
+	z-index: 1;
 }
+header a {
+	color: #eee;
+	text-decoration: none;
+}
+header nav a {
+	margin-left: 2em;
+	padding: 0.4em;
+}
+header .logo {
+	margin-right: auto;
+}
+
 p, blockquote {
-	max-width: 58ch;
-	padding: 2em;
+	max-width: 59ch;
 }
+p:last-child {
+	margin-bottom: 2.8em;
+}
+blockquote {
+	font-family: "Courier New", "Open Sans", sans-serif;
+}
+blockquote { padding: 2em; }
 blockquote cite {
 	float: right;
 	padding-top: 1em;
@@ -18,9 +46,16 @@ blockquote cite::before {
 	content: '— ';
 }
 
+.logo {
+	font-family: Copperplate, sans-serif;
+	font-size: 2em;
+	text-decoration: none;
+}
+
 .landing-section, .intro-quotes-section,
 section:nth-child(4), section:nth-child(5),
-section:nth-child(6), section:nth-child(7) {
+section:nth-child(6), section:nth-child(7),
+section:nth-child(8), section:nth-child(9), .outro {
 	align-items: center;
 	color: #eee;
 	display: flex;
@@ -33,19 +68,25 @@ section:nth-child(6), section:nth-child(7) {
 .landing-section h1 {
   margin-top: 0;
 }
-.intro-quotes-section, section:nth-child(5) {
+.intro-quotes-section, section:nth-child(5), section:nth-child(7), section:nth-child(9) {
 	/* background: #6d6565; */
 	background: #776363;
 }
 section:nth-child(4) {
 	background: url(https://images.unsplash.com/photo-1417577097439-425fb7dec05e) no-repeat center center fixed;
 }
-section:nth-child(6) {
+section:nth-child(6), section:nth-child(8) {
 	color: #222;
+}
+section:nth-child(8) {
+	text-align: center;
+}
+.outro {
+	background: url(./imgs/outro.jpg) no-repeat center center fixed;
 }
 
 .full-page-bg {
-	background-size: cover;
+	background-size: cover !important;
 	/* FIXME replace w/ image */
 	filter: saturate(0.4);
 	max-width: 100%;
@@ -54,10 +95,14 @@ section:nth-child(6) {
 }
 
 .hero-title {
-	font-size: 3em;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.5em;
 	font-variant: small-caps;
 }
 .hero-text {
+	font-family: Copperplate, "Open Sans", sans-serif;
 	font-size: 1.8em;
+	/* FIXME: may be redundant */
+	font-weight: 100;
 	white-space: pre-line;
 }
