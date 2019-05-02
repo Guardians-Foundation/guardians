@@ -7,17 +7,27 @@ body, cite {
 	font-family: "Lucida Bright", serif;
 }
 
-header {
-	align-items: center;
+body a {
+	color: #eee;
+}
+body a:visited {
+	color: #bbb;
+}
+nav a:visited {
+	color: #eee;
+}
+
+header, footer {
 	box-sizing: border-box;
 	display: flex;
 	min-width: 99vw;
 	padding: 1em;
 	position: absolute;
+}
+header {
 	z-index: 1;
 }
 header a {
-	color: #eee;
 	text-decoration: none;
 }
 header nav a {
@@ -91,13 +101,11 @@ section:nth-child(8) {
 	filter: saturate(0.4);
 	max-width: 100%;
 	min-height: 100vh;
-	width: 100vw;
 }
 
 .hero-title {
 	font-family: "Open Sans", sans-serif;
-	font-size: 2.5em;
-	font-variant: small-caps;
+	font-size: 2em;
 }
 .hero-text {
 	font-family: Copperplate, "Open Sans", sans-serif;
@@ -105,4 +113,8 @@ section:nth-child(8) {
 	/* FIXME: may be redundant */
 	font-weight: 100;
 	white-space: pre-line;
+}
+
+footer {
+	background: url(./imgs/outro.jpg) no-repeat center center fixed;
 }
