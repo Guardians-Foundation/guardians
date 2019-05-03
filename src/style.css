@@ -20,11 +20,12 @@ nav a:visited {
 header, footer {
 	box-sizing: border-box;
 	display: flex;
-	min-width: 99vw;
-	padding: 1em;
-	position: absolute;
+	max-width: 100%;
+	width: 100vw;
 }
 header {
+	padding: 1em;
+	position: absolute;
 	z-index: 1;
 }
 header a {
@@ -34,7 +35,7 @@ header nav a {
 	margin-left: 2em;
 	padding: 0.4em;
 }
-header .logo {
+header .logo, footer > nav {
 	margin-right: auto;
 }
 
@@ -115,6 +116,17 @@ section:nth-child(8) {
 	white-space: pre-line;
 }
 
+.social-link {
+	padding: 5px;
+}
+.social-link svg {
+	height: 1em;
+	width: 1em;
+}
+
 footer {
-	background: url(./imgs/outro.jpg) no-repeat center center fixed;
+	padding: 2em 1em;
+}
+footer a, footer a:visited {
+	color: #222;
 }
