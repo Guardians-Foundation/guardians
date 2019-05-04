@@ -8,13 +8,10 @@ body, cite {
 }
 
 body a {
-	color: #eee;
+	color: #222;
 }
 body a:visited {
-	color: #bbb;
-}
-nav a:visited {
-	color: #eee;
+	color: #444;
 }
 
 header, footer {
@@ -30,6 +27,9 @@ header {
 }
 header a {
 	text-decoration: none;
+}
+header a:visited {
+	color: #eee;
 }
 header nav a {
 	margin-left: 2em;
@@ -66,9 +66,9 @@ blockquote cite::before {
 .landing-section, .intro-quotes-section,
 section:nth-child(4), section:nth-child(5),
 section:nth-child(6), section:nth-child(7),
-section:nth-child(8), section:nth-child(9), .outro {
+section:nth-child(8), section:nth-child(9),
+.info-section, .outro {
 	align-items: center;
-	color: #eee;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -86,11 +86,14 @@ section:nth-child(8), section:nth-child(9), .outro {
 section:nth-child(4) {
 	background: url(https://images.unsplash.com/photo-1417577097439-425fb7dec05e) no-repeat center center fixed;
 }
-section:nth-child(6), section:nth-child(8) {
-	color: #222;
-}
 section:nth-child(8) {
+	background-color: #fff;
+	font-size: 1.5em;
 	text-align: center;
+}
+.info-section {
+	padding-bottom: 1.5em;
+	padding-top: 2em;
 }
 .outro {
 	background: url(./imgs/outro.jpg) no-repeat center center fixed;
@@ -117,16 +120,23 @@ section:nth-child(8) {
 }
 
 .social-link {
-	padding: 5px;
+	padding: 4px 7px;
 }
 .social-link svg {
 	height: 1em;
 	width: 1em;
 }
 
+.light-text, .light-text a {
+	color: #eee;
+}
+.light-text a:visited {
+	color: #bbb;
+}
+
 footer {
 	padding: 2em 1em;
 }
-footer a, footer a:visited {
+footer a:visited {
 	color: #222;
 }
