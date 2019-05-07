@@ -88,6 +88,7 @@ section:nth-child(4) {
 }
 section:nth-child(8) {
 	background-color: #fff;
+	background: url(https://images.unsplash.com/photo-1515269904793-e350332fbca1) no-repeat center center fixed;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -113,7 +114,7 @@ section:nth-child(8) {
 }
 .hero-text {
 	font-family: Copperplate, "Open Sans", sans-serif;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	/* FIXME: may be redundant */
 	font-weight: 100;
 	white-space: pre-line;
