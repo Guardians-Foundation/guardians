@@ -9,3 +9,41 @@
   align-items: center;
   justify-content: center;
 }
+
+.dialog .close {
+	cursor: pointer;
+  display: block;
+	position: relative;
+}
+.dialog .close::after {
+  right: 0;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  content: "×";
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.dialog > div {
+  width: 25rem;
+  position: relative;
+  padding: 1.3em;
+  background-color: white;
+	border-radius: 3px;
+}
+
+.dialog::before {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,.6);
+  content: "";
+  cursor: default;
+}
