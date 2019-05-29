@@ -60,6 +60,7 @@ blockquote cite::before {
 .logo {
 	font-family: Copperplate, sans-serif;
 	font-size: 2em;
+	padding: 0 0.3em;
 	text-decoration: none;
 }
 

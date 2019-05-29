@@ -33,7 +33,7 @@
   width: 25rem;
   position: relative;
   padding: 1.3em;
-  background-color: white;
+  background-color: #e3e3e3;
 	border-radius: 3px;
 }
 
@@ -43,7 +43,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.8);
   content: "";
   cursor: default;
 }
