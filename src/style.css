@@ -75,7 +75,7 @@ section:nth-child(8), section:nth-child(9),
 	justify-content: center;
 }
 .landing-section {
-  background: url(https://images.unsplash.com/photo-1498745289750-175b844dce53) no-repeat center center fixed;
+  background: url(./imgs/landing.jpg) no-repeat center center fixed;
 }
 .landing-section h1 {
   margin-top: 0;
@@ -85,10 +85,10 @@ section:nth-child(8), section:nth-child(9),
 	background: #776363;
 }
 section:nth-child(4) {
-	background: url(https://images.unsplash.com/photo-1417577097439-425fb7dec05e) no-repeat center center fixed;
+	background: url(./imgs/blue-galaxy.jpg) no-repeat center center fixed;
 }
 section:nth-child(8) {
-	background: url(https://images.unsplash.com/photo-1515269904793-e350332fbca1) no-repeat center center fixed;
+	background: url(./imgs/peak.jpg) no-repeat center center fixed;
 	font-size: 1.5em;
 	text-align: center;
 }
