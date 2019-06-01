@@ -102,8 +102,6 @@ section:nth-child(8) {
 
 .full-page-bg {
 	background-size: cover !important;
-	/* FIXME replace w/ image */
-	filter: saturate(0.4);
 	max-width: 100%;
 	min-height: 100vh;
 }
