@@ -67,7 +67,7 @@ blockquote cite::before {
 .landing-section, .intro-quotes-section,
 section:nth-child(4), section:nth-child(5),
 section:nth-child(6), section:nth-child(7),
-section:nth-child(8), section:nth-child(9),
+.guardians-section, section:nth-child(9),
 .info-section, .outro {
 	align-items: center;
 	display: flex;
@@ -81,13 +81,12 @@ section:nth-child(8), section:nth-child(9),
   margin-top: 0;
 }
 .intro-quotes-section, section:nth-child(5), section:nth-child(7), section:nth-child(9) {
-	/* background: #6d6565; */
-	background: #776363;
+	background: #6f6c6c;
 }
 section:nth-child(4) {
 	background: url(./imgs/blue-galaxy.jpg) no-repeat center center fixed;
 }
-section:nth-child(8) {
+.guardians-section {
 	background: url(./imgs/peak.jpg) no-repeat center center fixed;
 	font-size: 1.5em;
 	text-align: center;
