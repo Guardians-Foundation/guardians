@@ -2,6 +2,8 @@ body {
 	background-color: #eee;
 	color: #222;
 	font-size: 1.35em;
+	height: 100vh;
+	scroll-snap-type: y proximity;
 }
 body, cite {
 	font-family: "Lucida Bright", serif;
@@ -81,7 +83,8 @@ section:nth-child(6), section:nth-child(7),
   margin-top: 0;
 }
 .intro-quotes-section, section:nth-child(5), section:nth-child(7), section:nth-child(9) {
-	background: #6f6c6c;
+	background: #6f6b6a;
+	/* background: linear-gradient(160deg, #716c69 10%, #6b6564 75%, #827270 100%); */
 }
 section:nth-child(4) {
 	background: url(./imgs/blue-galaxy.jpg) no-repeat center center fixed;
@@ -103,6 +106,10 @@ section:nth-child(4) {
 	background-size: cover !important;
 	max-width: 100%;
 	min-height: 100vh;
+}
+
+.snappable {
+	scroll-snap-align: start;
 }
 
 .hero-title {
@@ -134,6 +141,7 @@ section:nth-child(4) {
 
 footer {
 	padding: 2em 1em;
+	scroll-snap-align: end;
 }
 footer a:visited {
 	color: #222;
