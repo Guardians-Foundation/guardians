@@ -8,7 +8,10 @@ body {
 body, cite {
 	font-family: "Lucida Bright", serif;
 }
-
+body > *:not(.dialog) {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
 
 
 body a {
@@ -40,7 +43,7 @@ header nav a {
 	margin-left: 1.1rem;
 	padding: 0.4rem;
 }
-header .logo, footer > nav {
+header .logo {
 	margin-right: auto;
 }
 
@@ -53,7 +56,7 @@ p:last-child {
 blockquote {
 	font-family: "Courier New", "Open Sans", sans-serif;
 }
-blockquote { padding: 2rem 0; }
+blockquote { margin: 0; padding: 2rem 0; }
 blockquote cite {
 	float: right;
 	padding-top: 1rem;
@@ -145,6 +148,9 @@ section:nth-child(4) {
 footer {
 	padding: 2rem 1rem;
 	scroll-snap-align: end;
+}
+footer nav {
+	margin-left: auto;
 }
 footer a:visited {
 	color: #222;
