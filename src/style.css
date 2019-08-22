@@ -1,7 +1,7 @@
 body {
 	background-color: #eee;
 	color: #222;
-	font-size: 1.35em;
+	font-size: 21px;
 	height: 100vh;
 	scroll-snap-type: y proximity;
 }
@@ -122,7 +122,7 @@ section:nth-child(4) {
 
 .hero-title {
 	font-family: "Open Sans", sans-serif;
-	font-size: 2rem;
+	font-size: 1.7rem;
 }
 .hero-text {
 	font-family: Copperplate, "Open Sans", sans-serif;
