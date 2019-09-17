@@ -2,8 +2,9 @@
 	--font: "Lucida Bright", serif;
 	--font-logo: 'Open Sans', sans-serif;
 	--size: 21px;
-	--biggest: 2.1rem;
+	--biggest: 2.2rem;
 	--letter-spacing-widest: 0.32rem;
+	--thinnest: 50;
 
 	--black: #444;
 	--white: #eee;
@@ -79,6 +80,7 @@ blockquote cite::before {
 .logo-text {
 	font-family: var(--font-logo);
 	font-size: var(--biggest);
+	font-weight: var(--thinnest);
 	letter-spacing: var(--letter-spacing-widest);
 	padding: 0 1rem;
 	text-decoration: none;
