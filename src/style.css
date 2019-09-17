@@ -1,12 +1,22 @@
+:root {
+	--font: "Lucida Bright", serif;
+	--font-logo: 'Open Sans', sans-serif;
+	--size: 21px;
+	--letter-spacing-widest: 0.32rem;
+
+	--black: #222;
+	--white: #eee;
+}
+
 body {
-	background-color: #eee;
-	color: #222;
-	font-size: 21px;
+	background-color: var(--white);
+	color: var(--black);
+	font-size: var(--size);
 	height: 100vh;
 	scroll-snap-type: y proximity;
 }
 body, cite {
-	font-family: "Lucida Bright", serif;
+	font-family: var(--font);
 }
 body > *:not(.dialog) {
 	padding-left: 0.5rem;
@@ -15,7 +25,7 @@ body > *:not(.dialog) {
 
 
 body a {
-	color: #222;
+	color: var(--black);
 }
 body a:visited {
 	color: #444;
@@ -37,13 +47,13 @@ header a {
 	text-decoration: none;
 }
 header a:visited {
-	color: #eee;
+	color: var(--white);
 }
 header nav a {
 	margin-left: 1.1rem;
 	padding: 0.4rem;
 }
-header .logo {
+header .logo-text {
 	margin-right: auto;
 }
 
@@ -65,9 +75,10 @@ blockquote cite::before {
 	content: '— ';
 }
 
-.logo {
-	font-family: Copperplate, sans-serif;
+.logo-text {
+	font-family: var(--font-logo);
 	font-size: 2rem;
+	letter-spacing: var(--letter-spacing-widest);
 	padding: 0 0.3rem;
 	text-decoration: none;
 }
@@ -141,7 +152,7 @@ section:nth-child(4) {
 }
 
 .light-text, .light-text a {
-	color: #eee;
+	color: var(--white);
 }
 .light-text a:visited {
 	color: #bbb;
@@ -155,5 +166,5 @@ footer nav {
 	margin-left: auto;
 }
 footer a:visited {
-	color: #222;
+	color: var(--black);
 }
