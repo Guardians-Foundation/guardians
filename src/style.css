@@ -137,6 +137,7 @@ section:nth-child(4) {
 .hero-title {
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.7rem;
+	text-align: center;
 }
 .hero-text {
 	font-family: Copperplate, "Open Sans", sans-serif;
