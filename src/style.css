@@ -69,6 +69,7 @@ p:last-child {
 blockquote {
 	/* font-family: "Courier New", "Open Sans", sans-serif; */
 	font-family: serif;
+	font-style: italic;
 }
 blockquote { margin: 0; padding: 2rem 0; }
 blockquote cite {
