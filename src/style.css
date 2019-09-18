@@ -1,8 +1,9 @@
 :root {
-	--font: "Lucida Bright", serif;
+	/* --font: "Lucida Bright", serif; */
+	--font: sans-serif;
 	--font-logo: 'Open Sans', sans-serif;
 	--size: 21px;
-	--biggest: 2.2rem;
+	--biggest: 2.1rem;
 	--letter-spacing-widest: 0.32rem;
 	--thinnest: 50;
 
@@ -66,7 +67,8 @@ p:last-child {
 	margin-bottom: 2.8rem;
 }
 blockquote {
-	font-family: "Courier New", "Open Sans", sans-serif;
+	/* font-family: "Courier New", "Open Sans", sans-serif; */
+	font-family: serif;
 }
 blockquote { margin: 0; padding: 2rem 0; }
 blockquote cite {
