@@ -37,13 +37,14 @@ body a:visited {
 header, footer {
 	box-sizing: border-box;
 	display: flex;
+	width: 1500px;
 	max-width: 100%;
-	width: 100vw;
 }
 header {
-	overflow-x: auto;
 	padding: 1rem;
 	position: absolute;
+	left: 50%;
+    transform: translate(-50%, 0);
 	z-index: 1;
 }
 header a {
@@ -53,8 +54,8 @@ header a:visited {
 	color: var(--white);
 }
 header nav a {
-	margin-left: 1.1rem;
-	padding: 0.4rem;
+	margin-left: 1rem;
+	padding: 0.4rem 0.7rem 0.4rem 0.4rem;
 }
 header .logo-text {
 	margin-right: auto;
