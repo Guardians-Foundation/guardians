@@ -167,6 +167,7 @@ section:nth-child(4) {
 }
 
 footer {
+	margin: 0 auto;
 	padding: 2rem 1rem;
 	scroll-snap-align: end;
 }
