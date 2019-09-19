@@ -10,6 +10,7 @@
 
 	--black: #444;
 	--white: #eee;
+	--light-grey: #bbb;
 }
 
 body {
@@ -32,7 +33,7 @@ body a {
 	color: var(--black);
 }
 body a:visited {
-	color: #444;
+	color: var(--black);
 }
 
 header, footer {
@@ -166,7 +167,7 @@ section:nth-child(4) {
 	color: var(--white);
 }
 .light-text a:visited {
-	color: #bbb;
+	color: var(--light-grey);
 }
 
 footer {
