@@ -6,6 +6,7 @@
 	--biggest: 2.1rem;
 	--letter-spacing-widest: 0.32rem;
 	--thinnest: 50;
+	--line-height-reading: 1.3;
 
 	--black: #444;
 	--white: #eee;
@@ -62,6 +63,7 @@ header .logo-text {
 }
 
 p, blockquote {
+	line-height: var(--line-height-reading);
 	max-width: 59ch;
 }
 p:last-child {
