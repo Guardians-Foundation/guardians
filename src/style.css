@@ -134,7 +134,14 @@ section:nth-child(4) {
 
 .slide {
 	background-size: cover !important;
+	box-sizing: border-box;
+	display: none;
 	min-height: 100vh;
+	position: absolute;
+	min-width: 100%;
+}
+.slide:target {
+	display: block;
 }
 
 .snappable {
