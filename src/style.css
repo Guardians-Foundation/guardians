@@ -135,7 +135,9 @@ section:nth-child(4) {
 }
 .slide:target {
 	display: flex;
+	z-index: 1;
 }
+#s1 { display: flex; }
 
 .snappable {
 	scroll-snap-align: start;
