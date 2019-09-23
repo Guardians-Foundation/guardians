@@ -94,16 +94,6 @@ blockquote cite::before {
 	text-decoration: none;
 }
 
-.landing-section, .intro-quotes-section,
-section:nth-child(4), section:nth-child(5),
-section:nth-child(6), section:nth-child(7),
-.guardians-section, section:nth-child(9),
-.info-section, .outro {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
 .landing-section {
   background: url(./imgs/landing.jpg) no-repeat center center fixed;
 }
@@ -136,12 +126,15 @@ section:nth-child(4) {
 	background-size: cover !important;
 	box-sizing: border-box;
 	display: none;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 	min-height: 100vh;
 	position: absolute;
 	min-width: 100%;
 }
 .slide:target {
-	display: block;
+	display: flex;
 }
 
 .snappable {
