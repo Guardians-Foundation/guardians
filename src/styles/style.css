@@ -132,11 +132,9 @@ blockquote cite::before {
 	min-height: 100vh;
 	width: 100%;
 }
-.slide:target {
+.slide:target, .landing-section:only-of-type {
 	display: flex;
-	z-index: 1;
 }
-#s1 { display: flex; }
 
 .snappable {
 	scroll-snap-align: start;
