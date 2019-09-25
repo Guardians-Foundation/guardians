@@ -132,7 +132,7 @@ blockquote cite::before {
 	min-height: 100vh;
 	width: 100%;
 }
-.slide:target, .landing-section:only-of-type {
+.slide:target, .landing-section {
 	display: flex;
 }
 
