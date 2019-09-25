@@ -100,7 +100,7 @@ blockquote cite::before {
 .landing-section h1 {
   margin-top: 0;
 }
-.intro-quotes-section, section:nth-child(5), section:nth-child(7), section:nth-child(9) {
+.standard-quote-section {
 	background: #6f6b6a;
 	/* background: linear-gradient(160deg, #716c69 10%, #6b6564 75%, #827270 100%); */
 }
