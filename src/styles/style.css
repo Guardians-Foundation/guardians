@@ -104,7 +104,7 @@ blockquote cite::before {
 	background: #6f6b6a;
 	/* background: linear-gradient(160deg, #716c69 10%, #6b6564 75%, #827270 100%); */
 }
-section:nth-child(4) {
+.nascent-force-section {
 	background: url(../imgs/blue-galaxy.jpg) no-repeat center center fixed;
 }
 .guardians-section {
