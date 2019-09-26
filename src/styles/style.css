@@ -126,18 +126,15 @@ blockquote cite::before {
 	background-size: cover !important;
 	box-sizing: border-box;
 	position: absolute;
-	display: flex;
+	display: none;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
 	width: 100%;
 }
-.slide:target {
-	z-index: 2;
-}
-.landing-section {
-	z-index: 1;
+.slide:target, .landing-section {
+	display: flex;
 }
 
 .snappable {
