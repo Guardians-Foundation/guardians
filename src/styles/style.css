@@ -125,6 +125,7 @@ blockquote cite::before {
 .slide {
 	background-size: cover !important;
 	box-sizing: border-box;
+	position: absolute;
 	display: none;
 	align-items: center;
 	flex-direction: column;
