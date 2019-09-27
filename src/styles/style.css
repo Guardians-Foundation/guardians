@@ -14,7 +14,6 @@
 }
 
 body {
-	background-color: var(--white);
 	color: var(--black);
 	font-size: var(--size);
 	height: 100vh;
@@ -179,4 +178,8 @@ footer nav {
 }
 footer a:visited {
 	color: var(--black);
+}
+
+.wh-bg {
+	background-color: var(--white);
 }
