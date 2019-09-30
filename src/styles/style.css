@@ -16,7 +16,6 @@
 body {
   color: var(--black);
   font-size: var(--size);
-  overflow-x: hidden;
   scroll-snap-type: y proximity;
 }
 body,
@@ -125,6 +124,10 @@ blockquote cite::before {
 }
 .outro {
   background: url(../imgs/outro.jpg) no-repeat center center fixed;
+}
+
+.slides {
+  display: flex;
 }
 
 .slide {
