@@ -133,23 +133,19 @@ blockquote cite::before {
 .slide {
   background-size: cover !important;
   box-sizing: border-box;
-  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
+  flex-shrink: 0;
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  transform: translate(-100%);
-  transition: transform 0.4s;
 }
 .slide:target,
 .landing-section {
-  transform: translate(0);
 }
 
 .slide:target ~ .slide {
-  transform: translate(100%);
 }
 
 .snappable {
