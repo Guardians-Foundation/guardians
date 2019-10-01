@@ -128,6 +128,12 @@ blockquote cite::before {
 
 .slides {
   display: flex;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+.slides::-webkit-scrollbar { /* Webkit */
+  height: 0;
+  width: 0;
 }
 
 .slide {
