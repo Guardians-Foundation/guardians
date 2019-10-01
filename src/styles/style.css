@@ -147,7 +147,7 @@ blockquote cite::before {
   flex-shrink: 0;
   justify-content: center;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 .slide:target,
 .landing-section {
