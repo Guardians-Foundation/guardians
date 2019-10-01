@@ -131,6 +131,8 @@ blockquote cite::before {
   overflow-x: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
+
+  scroll-snap-type: x mandatory;
 }
 .slides::-webkit-scrollbar {
   /* Webkit */
