@@ -150,6 +150,11 @@ blockquote cite::before {
 /* .slide:target,
 .landing-section {
 } */
+.btn-link {
+  display: inline-block;
+  padding: 0.8rem 0.9rem;
+  text-decoration: none;
+}
 
 .snappable {
   scroll-snap-align: start;
