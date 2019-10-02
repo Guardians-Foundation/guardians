@@ -128,18 +128,12 @@ blockquote cite::before {
 
 .slides {
   display: flex;
+  align-items: flex-start;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
 
   overflow-x: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
-}
-.slides::-webkit-scrollbar {
-  /* Webkit */
-  height: 0;
-  width: 0;
 }
 
 .slide {
@@ -149,16 +143,13 @@ blockquote cite::before {
   align-items: center;
   flex-direction: column;
   flex-shrink: 0;
-  justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
   width: 100vw;
 }
-.slide:target,
+/* .slide:target,
 .landing-section {
-}
-
-.slide:target ~ .slide {
-}
+} */
 
 .snappable {
   scroll-snap-align: start;
@@ -203,6 +194,20 @@ footer nav {
 }
 footer a:visited {
   color: var(--black);
+}
+
+.hidden-scroll {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.hidden-scroll::-webkit-scrollbar {
+  /* Webkit */
+  height: 0;
+  width: 0;
+}
+
+.fl-jc-center {
+  justify-content: center;
 }
 
 .wh-bg {
