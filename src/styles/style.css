@@ -135,11 +135,16 @@ blockquote cite::before {
 
   overflow-x: scroll;
 }
-
+/* this is needed to push the nav links element to the bottom, see
+ 	https://stackoverflow.com/a/33114968/4579279 */
+.slide::before {
+  content: "";
+}
 .slide {
   background-size: cover !important;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: column;
   flex-shrink: 0;
   height: 100vh;
@@ -152,9 +157,10 @@ blockquote cite::before {
 } */
 .slide-nav {
   margin-left: 49%;
+  margin-bottom: 1rem;
 }
 .slide-nav .btn-link {
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: bold;
   opacity: 0.75;
 }
@@ -220,10 +226,6 @@ footer a:visited {
   /* Webkit */
   height: 0;
   width: 0;
-}
-
-.fl-jc-center {
-  justify-content: center;
 }
 
 .wh-bg {
