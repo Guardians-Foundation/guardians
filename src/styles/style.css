@@ -8,6 +8,8 @@
   --thinnest: 50;
   --line-height-reading: 1.3;
 
+  --spacing-slight: 0.37rem;
+
   --black: #444;
   --white: #eee;
   --light-grey: #bbb;
@@ -21,10 +23,6 @@ body {
 body,
 cite {
   font-family: var(--font);
-}
-body > *:not(.dialog) {
-  padding-left: 0.5rem;
-  padding-right: 0.3rem;
 }
 
 body a {
@@ -56,7 +54,8 @@ header a:visited {
 }
 header nav a {
   margin-left: 1rem;
-  padding: 0.4rem 0.7rem 0.4rem 0.4rem;
+  padding: var(--spacing-slight) 0.7rem var(--spacing-slight)
+    var(--spacing-slight);
 }
 header .logo-text {
   margin-right: auto;
@@ -142,6 +141,7 @@ blockquote cite::before {
 }
 .slide {
   background-size: cover !important;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,6 +149,8 @@ blockquote cite::before {
   flex-shrink: 0;
   height: 100vh;
   overflow-y: auto;
+  padding-left: var(--spacing-slight);
+  padding-right: var(--spacing-slight);
   height: 100vh;
   width: 100vw;
 }
