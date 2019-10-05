@@ -40,7 +40,7 @@ footer {
   max-width: 100%;
 }
 header {
-  padding: 0.4rem 0.5rem;
+  padding: 0.2rem 0.4rem 0.4rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
@@ -93,7 +93,7 @@ blockquote cite::before {
 
 .logo-text {
   font-family: var(--font-logo);
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   font-weight: var(--thinnest);
   letter-spacing: var(--letter-spacing-widest);
   padding: 0.3rem 1rem 0.4rem;
@@ -155,6 +155,7 @@ blockquote cite::before {
   overflow-y: auto;
   padding-left: var(--spacing-slight);
   padding-right: var(--spacing-slight);
+  padding-top: 1rem;
   height: 100vh;
   width: 100vw;
 }
