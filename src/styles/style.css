@@ -40,7 +40,7 @@ footer {
   max-width: 100%;
 }
 header {
-  padding: 0.8rem;
+  padding: 0.4rem 0.5rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
@@ -58,12 +58,11 @@ header nav a {
     var(--spacing-slight);
 }
 header .logo-text {
-  margin-right: auto;
-  transition: transform 0.4s ease-in;
+  transition: transform 0.5s ease-in;
 }
 header .logo-text:hover {
   transform: scale(1.15);
-  transition: transform 1.7s ease-in;
+  transition: transform 1.2s ease-in;
 }
 
 p,
@@ -97,7 +96,7 @@ blockquote cite::before {
   font-size: 1.45rem;
   font-weight: var(--thinnest);
   letter-spacing: var(--letter-spacing-widest);
-  padding: 0 1rem;
+  padding: 0.3rem 1rem 0.4rem;
   text-decoration: none;
 }
 
