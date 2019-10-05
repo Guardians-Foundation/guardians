@@ -3,7 +3,7 @@
   --font: sans-serif;
   --font-logo: "Open Sans", sans-serif;
   --size: 21px;
-  --biggest: 2.1rem;
+  --big: 1.7rem;
   --letter-spacing-widest: 0.32rem;
   --thinnest: 50;
   --line-height-reading: 1.3;
@@ -40,7 +40,7 @@ footer {
   max-width: 100%;
 }
 header {
-  padding: 1rem;
+  padding: 0.8rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
@@ -59,6 +59,11 @@ header nav a {
 }
 header .logo-text {
   margin-right: auto;
+  transition: transform 0.4s ease-in;
+}
+header .logo-text:hover {
+  transform: scale(1.15);
+  transition: transform 1.7s ease-in;
 }
 
 p,
@@ -89,7 +94,7 @@ blockquote cite::before {
 
 .logo-text {
   font-family: var(--font-logo);
-  font-size: var(--biggest);
+  font-size: 1.45rem;
   font-weight: var(--thinnest);
   letter-spacing: var(--letter-spacing-widest);
   padding: 0 1rem;
@@ -181,7 +186,7 @@ blockquote cite::before {
 
 .hero-title {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.7rem;
+  font-size: var(--big);
   text-align: center;
 }
 .hero-text {
