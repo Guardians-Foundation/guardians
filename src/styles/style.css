@@ -164,7 +164,7 @@ blockquote cite::before {
 } */
 .slide-nav {
   margin-left: 49%;
-  margin-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .slide-nav .btn-link {
   font-size: 2.3rem;
@@ -214,6 +214,7 @@ blockquote cite::before {
 
 footer {
   flex-direction: column;
+  margin-top: var(--spacing-md);
 }
 .footer-main {
   display: flex;
