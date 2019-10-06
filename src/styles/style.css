@@ -20,7 +20,6 @@
 body {
   color: var(--black);
   font-size: var(--size);
-  scroll-snap-type: y proximity;
 }
 body,
 cite {
@@ -193,7 +192,6 @@ blockquote cite::before {
 .hero-text {
   font-family: Copperplate, "Open Sans", sans-serif;
   font-size: 1.6rem;
-  /* FIXME: may be redundant */
   font-weight: 100;
   white-space: pre-line;
 }
