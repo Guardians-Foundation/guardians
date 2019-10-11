@@ -61,7 +61,7 @@ header .logo-text {
   transition: transform 0.5s ease-in;
 }
 header .logo-text:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
   transition: transform 1.2s ease-in;
 }
 
