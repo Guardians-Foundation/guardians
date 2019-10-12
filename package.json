@@ -5,9 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "webpack": ">=4.41.1 <5.0.0"
+    "webpack": ">=4.41.1 <5.0.0",
+    "webpack-cli": ">=3.3.9 <4.0.0"
   },
   "scripts": {
+    "build": "rm -rf public && mkdir public && cp ./src/index.html ./public/ && npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
