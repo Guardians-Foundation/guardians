@@ -12,6 +12,9 @@
     "build": "rm -rf public && mkdir public && cp ./src/index.html ./public/ && npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": [
+    "> 2%"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/AlexandrNil/guardians-website.git"
