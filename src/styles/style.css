@@ -68,7 +68,8 @@ header .logo-text:hover {
 p,
 blockquote {
   line-height: var(--line-height-reading);
-  max-width: 59ch;
+  width: 59ch;
+  max-width: 100%;
 }
 p:last-child {
   margin-bottom: 2.8rem;
