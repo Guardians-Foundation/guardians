@@ -188,6 +188,7 @@ blockquote cite::before {
 .hero-title {
   font-family: "Open Sans", sans-serif;
   font-size: var(--big);
+  letter-spacing: 1px;
   text-align: center;
 }
 .hero-text {
