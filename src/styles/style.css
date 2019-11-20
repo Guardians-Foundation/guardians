@@ -103,7 +103,22 @@ blockquote cite::before {
 }
 
 .landing-section {
-  background: url(../imgs/landing.jpg) no-repeat center center fixed;
+  background: url(../imgs/landing-800.jpg) no-repeat center center fixed;
+}
+@media screen and (min-width: 900px) {
+  .landing-section {
+    background: url(../imgs/landing-1300.jpg) no-repeat center center fixed;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .landing-section {
+    background: url(../imgs/landing-1800.jpg) no-repeat center center fixed;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .landing-section {
+    background: url(../imgs/landing.jpg) no-repeat center center fixed;
+  }
 }
 .landing-section h1 {
   margin-top: 0;
@@ -113,12 +128,43 @@ blockquote cite::before {
   /* background: linear-gradient(160deg, #716c69 10%, #6b6564 75%, #827270 100%); */
 }
 .nascent-force-section {
-  background: url(../imgs/blue-galaxy.jpg) no-repeat center center fixed;
+  background: url(../imgs/blue-galaxy-800.jpg) no-repeat center center fixed;
 }
+@media screen and (min-width: 900px) {
+  .nascent-force-section {
+    background: url(../imgs/blue-galaxy-1300.jpg) no-repeat center center fixed;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .nascent-force-section {
+    background: url(../imgs/blue-galaxy-1800.jpg) no-repeat center center fixed;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .nascent-force-section {
+    background: url(../imgs/blue-galaxy.jpg) no-repeat center center fixed;
+  }
+}
+
 .guardians-section {
-  background: url(../imgs/peak.jpg) no-repeat center center fixed;
+  background: url(../imgs/peak-800.jpg) no-repeat center center fixed;
   font-size: 1.5rem;
   letter-spacing: var(--letter-spacing-bigger);
+}
+@media screen and (min-width: 900px) {
+  .guardians-section {
+    background: url(../imgs/peak-1300.jpg) no-repeat center center fixed;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .guardians-section {
+    background: url(../imgs/peak-1800.jpg) no-repeat center center fixed;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .guardians-section {
+    background: url(../imgs/peak.jpg) no-repeat center center fixed;
+  }
 }
 .guardians-section,
 .hero-text {
@@ -129,7 +175,12 @@ blockquote cite::before {
   padding-top: var(--spacing-md);
 }
 .outro {
-  background: url(../imgs/outro.jpg) no-repeat center center fixed;
+  background: url(../imgs/outro-800.jpg) no-repeat center center fixed;
+}
+@media screen and (min-width: 900px) {
+  .outro {
+    background: url(../imgs/outro.jpg) no-repeat center center fixed;
+  }
 }
 
 .slides {
