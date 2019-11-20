@@ -11,6 +11,10 @@
   --spacing-md: 3rem;
   --spacing-sm: 0.37rem;
 
+  --sm: 900px;
+  --md: 1500px;
+  --lg: 2100px;
+
   --black: #444;
   --blacker: #222;
   --white: #eee;
@@ -105,17 +109,17 @@ blockquote cite::before {
 .landing-section {
   background: url(../imgs/landing-800.jpg) no-repeat center center fixed;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: var(--sm)) {
   .landing-section {
     background: url(../imgs/landing-1300.jpg) no-repeat center center fixed;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: var(--md)) {
   .landing-section {
     background: url(../imgs/landing-1800.jpg) no-repeat center center fixed;
   }
 }
-@media screen and (min-width: 2100px) {
+@media screen and (min-width: var(--lg)) {
   .landing-section {
     background: url(../imgs/landing.jpg) no-repeat center center fixed;
   }
@@ -130,17 +134,17 @@ blockquote cite::before {
 .nascent-force-section {
   background: url(../imgs/blue-galaxy-800.jpg) no-repeat center center fixed;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: var(--sm)) {
   .nascent-force-section {
     background: url(../imgs/blue-galaxy-1300.jpg) no-repeat center center fixed;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: var(--md)) {
   .nascent-force-section {
     background: url(../imgs/blue-galaxy-1800.jpg) no-repeat center center fixed;
   }
 }
-@media screen and (min-width: 2100px) {
+@media screen and (min-width: var(--lg)) {
   .nascent-force-section {
     background: url(../imgs/blue-galaxy.jpg) no-repeat center center fixed;
   }
@@ -151,17 +155,17 @@ blockquote cite::before {
   font-size: 1.5rem;
   letter-spacing: var(--letter-spacing-bigger);
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: var(--sm)) {
   .guardians-section {
     background: url(../imgs/peak-1300.jpg) no-repeat center center fixed;
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: var(--md)) {
   .guardians-section {
     background: url(../imgs/peak-1800.jpg) no-repeat center center fixed;
   }
 }
-@media screen and (min-width: 2100px) {
+@media screen and (min-width: var(--lg)) {
   .guardians-section {
     background: url(../imgs/peak.jpg) no-repeat center center fixed;
   }
@@ -177,7 +181,7 @@ blockquote cite::before {
 .outro {
   background: url(../imgs/outro-800.jpg) no-repeat center center fixed;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: var(--sm)) {
   .outro {
     background: url(../imgs/outro.jpg) no-repeat center center fixed;
   }
