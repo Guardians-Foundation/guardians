@@ -27,8 +27,14 @@ function onKeydown(ev) {
     );
     if (IS_LEFT_KEY[pressedKey] && currentSlideNum > 1) {
       navigateWithNewHash(SLIDE_URL_PREFIX + (currentSlideNum - 1));
-    } else if (IS_RIGHT_KEY[pressedKey] && currentSlideNum < SLIDE_NUM_MAX) {
-      navigateWithNewHash(SLIDE_URL_PREFIX + (currentSlideNum + 1));
+    }
+    else if (IS_RIGHT_KEY[pressedKey]) {
+      if (Number.isNaN(currentSlideNum)) {
+        navigateWithNewHash(SLIDE_URL_PREFIX + 2);
+      }
+      else if (currentSlideNum < SLIDE_NUM_MAX) {
+        navigateWithNewHash(SLIDE_URL_PREFIX + (currentSlideNum + 1));
+      }
     }
   }
 }
