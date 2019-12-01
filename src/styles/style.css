@@ -205,7 +205,6 @@ blockquote cite::before {
   justify-content: space-between;
   flex-direction: column;
   flex-shrink: 0;
-  height: 100vh;
   overflow-y: auto;
   padding-left: var(--spacing-sm);
   padding-right: var(--spacing-sm);
