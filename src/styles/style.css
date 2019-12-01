@@ -209,7 +209,7 @@ blockquote cite::before {
   overflow-y: auto;
   padding-left: var(--spacing-sm);
   padding-right: var(--spacing-sm);
-  padding-top: 1.3rem;
+  padding-top: 2.3rem;
   height: 100vh;
   width: 100vw;
 }
