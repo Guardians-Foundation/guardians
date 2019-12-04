@@ -12,7 +12,7 @@
     "webpack-cli": ">=3.3.9 <4.0.0"
   },
   "scripts": {
-    "build": "npx postcss --use postcss-preset-env cssnano -d public/styles/ src/styles/*.css && cp src/index.html public/ && rm -rf public/imgs && mkdir -p public/imgs && cp src/imgs/* public/imgs && npx webpack",
+    "build": "npx postcss --use postcss-preset-env cssnano -d public/styles/ src/styles/*.css && cp src/index.html public/ && rm -rf public/imgs && mkdir -p public/imgs && cp src/imgs/* public/imgs && npx webpack && find ./public/ \\( -iname '*.css' -o -iname '*.html' -o -iname '*.js' \\) -exec gzip -5 -f --verbose --keep {} \\;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": [
